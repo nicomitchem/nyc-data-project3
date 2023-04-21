@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -27,7 +27,7 @@ h1 {
   font-family: 'Righteous';
 }
 
-img {
+/* img {
   width: 100%;
   max-width: 100%;
 }
@@ -35,5 +35,126 @@ img {
 header {
   text-align: center;
   margin-bottom: 5em;
+} */ 
+/* .borough{
+  font-family: 'Bowlby One';
+  font-size: 50pt;
+} */
+@font-face {
+  font-family: 'Bowlby One';
+  src: url('BowlbyOne-Regular.woff2') format('woff2'),
+      url('BowlbyOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+.title{
+  padding-top: 3vw;
+  padding-left: 3vw;
+  height: 100%;
+  width: 25vw;
+}
+.title2{
+  padding-top: 3vw;
+  padding-left: 3vw;
+  height: 100%;
+  width: 8vw;
+  transition: transform .8s;
+}
+.title2:hover{
+  transform:scale(1.8);
+}
+.title3{
+  padding-top: -10vw;
+  padding-left: 20vw;
+  height: 100%;
+  width: 40vw;
+}
+.title4{
+  padding-top: -10vw;
+  padding-left: 20.5vw;
+  height: 100%;
+  width: 38vw;
+}
+.title5{
+  padding-top: -10vw;
+  padding-left: 25vw;
+  height: 100%;
+  width: 28vw;
+}
+.title6{
+  padding-top: -10vw;
+  padding-left: 28vw;
+  height: 100%;
+  width: 22vw;
+}
+.title7{
+  padding-top: -10vw;
+  padding-left: 28vw;
+  height: 100%;
+  width: 22vw;
+}
+
+
+.si{
+  position: absolute;
+  top: 38vw;
+  left:27vw;
+  width: 18vw;
+  height: auto;
+  transition: transform .5s;
+}
+.si:hover{
+  transform:scale(1.5);
+  z-index: 1;
+}
+.brooklyn{
+  position: absolute;
+  top: 27vw;
+  left:45vw;
+  width: 17vw;
+  height: auto;
+  transition: transform .5s;
+}
+.brooklyn:hover{
+  transform:scale(1.5);
+  z-index: 1;
+}
+.manhattan{
+  position: absolute;
+  top: 8vw;
+  left:46.5vw;
+  width: 11vw;
+  height: auto;
+  transition: transform .5s;
+}
+.manhattan:hover{
+  transform:scale(1.5);
+  z-index: 1;
+}
+.bronx{
+  position: absolute;
+  top: 3vw;
+  left:55.5vw;
+  width: 15vw;
+  height: auto;
+  transition: transform .5s;
+}
+.bronx:hover{
+  transform:scale(1.5);
+  z-index: 1;
+}
+.queens{
+  position: absolute;
+  top: 18.5vw;
+  left:53.5vw;
+  width: 23vw;
+  height: auto;
+  transition: transform .5s;
+}
+.queens:hover{
+  transform:scale(1.5);
+  z-index: 1;
+}
+
 
