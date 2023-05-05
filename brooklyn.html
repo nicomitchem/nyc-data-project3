@@ -9,6 +9,42 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Righteous&display=swap" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
+        <style>
+
+            button {
+                    font-family: "Arial Display", Arial, sans-serif;
+                    font-size: 20px;
+                    color: black;
+                    background-color: lightgray;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 12px 24px;
+                    transition: font-size 0.3s ease-in-out;
+                  }
+            
+                  button:hover {
+                    font-size: 40px;
+                  }
+                  button a {
+                text-decoration: none;
+                color: black;
+            }
+            
+                  /* Responsive styles */
+                  @media only screen and (max-width: 768px) {
+                    button {
+                      font-size: 14px;
+                      padding: 10px 20px;
+                    }
+                  }
+            
+                  @media only screen and (max-width: 480px) {
+                    button {
+                      font-size: 12px;
+                      padding: 8px 16px;
+                    }
+                  }
+                    </style>
 	</head>
 	<body>
         <a href="index.html">
@@ -17,6 +53,39 @@
         <a>
             <img src="data/BROOKLYN1.png" class="title4">
         </a>
+        <div class="container">
+            <div class="item">
+                Graffiti arguably got its start in Manhattan in the late 1960s and early 1970s, when writers like TAKI 183 began tagging their names all over the city. This led to a wave of graffiti that spread throughout the borough and eventually beyond. In the 1980s, Manhattan graffiti became more stylized and artistic, with artists like KEITH HARING and JEAN-MICHEL BASQUIAT gaining fame for their work.
+              </div>
+              
+              <button>
+                <a href="manhattandata.html">
+                  Access Data   </a></button>
+
+
+                  <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <img src="data/dondi1.webp">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="data/dondi2.jpeg">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="data/seen1.webp">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="data/seen2.jpeg">
+                      </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+              
+            
+        </div>
 
 
     <script src="script.js"></script>
