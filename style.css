@@ -62,7 +62,7 @@ header {
   transition: transform .8s;
 }
 .title2:hover{
-  transform:scale(1.8);
+  transform:scale(1.5);
 }
 .title3{
   padding-top: -10vw;
@@ -93,6 +93,13 @@ header {
   padding-left: 28vw;
   height: 100%;
   width: 22vw;
+}
+.title0{
+  position: absolute;
+ padding-top: 1vw;
+  padding-left: 4vw;
+  height: auto;
+  width: 80vw;
 }
 
 
